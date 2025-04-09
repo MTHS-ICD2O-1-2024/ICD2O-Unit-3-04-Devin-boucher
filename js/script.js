@@ -17,6 +17,6 @@ function Calculate() {
   const Celsius = (Fahrenheit - 32) * 5 / 9
 
   // Display the result
-  document.getElementById("Answer").innerHTML = 
-  `The temperature in Celsius is: <strong>${Celsius.toFixed(3)}</strong>°C`
+  document.getElementById("Answer").innerHTML =
+    `The temperature in Celsius is: <strong>${Celsius.toFixed(3)}</strong>°C`
 }
