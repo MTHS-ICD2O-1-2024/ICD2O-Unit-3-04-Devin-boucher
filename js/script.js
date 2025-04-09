@@ -14,7 +14,7 @@ function Calculate() {
   const Fahrenheit = parseFloat(document.getElementById("Fahrenheit").value)
 
   // Convert Fahrenheit to Celsius using the formula: (F - 32) * 5 / 9
-  const Celsius = (Fahrenheit - 32) * 5 / 9)
+  const Celsius = ((Fahrenheit - 32) * 5 / 9)
 
   // Display the result
   document.getElementById("Answer").innerHTML =
