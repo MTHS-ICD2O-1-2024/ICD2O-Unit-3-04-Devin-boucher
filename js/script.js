@@ -11,12 +11,12 @@
  */
 function Calculate() {
   // Get input values
-  const Fahrenheit = parseFloat(document.getElementById("Fahrenheit").value)
+  const fahrenheit = parseFloat(document.getElementById("fahrenheit").value)
 
   // Convert Fahrenheit to Celsius using the formula: (F - 32) * 5 / 9
-  const Celsius = (Fahrenheit - 32) * 5 / 9
+  const celsius = (fahrenheit - 32) * (5 / 9)
 
   // Display the result
   document.getElementById("Answer").innerHTML =
-    `The temperature in Celsius is: <strong>${Celsius.toFixed(3)}</strong>°C`
+    `The temperature in Celsius is: <strong>${celsius.toFixed(3)}</strong>°C`
 }
